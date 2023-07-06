@@ -56,6 +56,14 @@ class Civilization:
         self.bombard_canon = bombard_canon
         self.trebuchet = trebuchet
         self.siege_engineers = siege_engineers
+'''
+# Future edit to make the civilization class not so cumbersum
+class Civilization:
+    def __init__(self, name, unit_upgrades={}, tech_upgrades={}):
+        self.name = name
+        self.unit_upgrades = unit_upgrades
+        self.tech_upgrades = tech_upgrades
+'''
 
 # Function to change a list to lower case 
 def to_lowercase(input_list):
